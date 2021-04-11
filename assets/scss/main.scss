@@ -1,0 +1,67 @@
+:root {
+    --blue: #6495ed;
+    --white: #faf0e6;
+}
+
+.app-content {
+    background-color: #f8f8f8 !important;
+}
+
+.card {
+    border: none !important;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 24px 0 rgb(34 41 47 / 10%);
+}
+
+.profile-app-bar {
+    background: linear-gradient(141deg, #ff5c83 0%, #e84444 47%, #e0362d 71%, #d72815 92%);
+    box-shadow: 0px 0px 15px 0px rgb(0 0 0 / 25%);
+    height: 110px;
+}
+
+.profile-image-content {
+    position: absolute;
+}
+
+.profile-image-content button {
+    background: #fbfbfb;
+    margin-top: 96px;
+    margin-left: -25px;
+    padding: 18px;
+    box-shadow: 1px 1px 6px 1px #cccccc85;
+}
+
+.profile-image {
+    border: .3rem solid #fffdfd29;
+    background-color: #ffffff;
+    border-radius: 50%;
+    box-shadow: 0 4px 24px 0 rgb(34 41 47 / 10%);
+    margin-top: 35px;
+    height: 6.92rem !important;
+    width: 6.92rem !important;
+    margin-left: 12px;
+}
+
+.profile-title {
+    margin-left: 140px;
+    margin-top: 25px;
+}
+
+.profile-title h2 {
+    font-size: 1.5rem;
+}
+
+.profile-title p {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.mandatory label:after {
+    content: '*';
+    color: var(--red);
+}
+
+.theme--dark.v-btn.v-btn--disabled:not(.v-btn--flat):not(.v-btn--text):not(.v-btn--outlined) {
+    background-color: rgb(255 151 151) !important;
+    color: #ffffffbf !important;
+}
